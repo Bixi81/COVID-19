@@ -3,7 +3,7 @@ Some data wrangling on COVID-19
 
 1. Data
 
-cdscd
+Data on COVID-19 cases are currently published daily by RKI (https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html)
 
 
 2. Basic Trends

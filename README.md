@@ -33,16 +33,16 @@ Data on COVID-19 cases are currently published daily by [Robert Koch-Institut (R
 
 Around March 16th, first precautionary measures have been taken on a broader scale by German States (Bundesländer), including official recommendations to stay at home if possible and to avoid unnecessary travels. From March 21th onwards stronger regulation is in place in two States (Bayern, Saarland), basically restricting freedom of movement for most people.
 
-Between February 29th and March 21st, the growth of cases showed a linear trend.
+Between February 29th and March 21st, the growth of cases showed a linear trend over time on a semi-log scale.
 
 ![trend](2020_03_21_covid19_log_and_trend_germany.JPG)
 
 
-
-
-
 2. Linear Regression
-df
+
+It is easy to get an estimate of the current growth of COVID-19 infections in Germany.
+
+- <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
 
 3. Prediction
 df

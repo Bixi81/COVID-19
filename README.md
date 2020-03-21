@@ -1,5 +1,7 @@
 # COVID-19 Cases in Germany
 
+21 March 2020
+
 This article presents a brief overview of the current development of COVID-19 cases in Germany as of 21 March 2020. I identify the rate of growth in new infections per day and look at short term development of cases (overall numer of infected people) under different growth assumtions.
 
 **1. Data and Basic Trends**
@@ -77,6 +79,8 @@ Under the assumtion of a 17% growth rate of newly infected people, the total num
 **Thus, it is extremely immportant, to do anything that can be done, to slow down the current pace of new infections.** If the current trend would continue over a longer period (say 4-6 weeks), the consequences could be extreme.
 
 ![pred](2020_03_21_covid19_prediction_germany.JPG)
+
+The figure shows actual cases (until 21 March 2020) and the predicted number of cases (from 21 March onwards) under the assumption of unchanged growth rate of 23% (red) and a lower growth rate (green) of 17%.
 
 **4. Conclusion**
 

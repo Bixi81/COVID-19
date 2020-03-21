@@ -67,6 +67,8 @@ The results imply that the growth rate of COVID-19 cases in Germany over the las
 
 Because the incubation period of the corona virus is relatively long, we can reasonably assume, the the current trend will continue for the next ten to 14 days. 
 
+![pred](2020_03_21_covid19_prediction_germany.JPG)
+
 **4. Conclusion**
 
 dsfv

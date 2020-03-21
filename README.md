@@ -1,19 +1,19 @@
 # COVID-19
 Some data wrangling on COVID-19
 
-## Data
+1. Data
 
 cdscd
 
 
-## Basic Trends
+2. Basic Trends
 dfsv
 
-## Linear Regression
+3. Linear Regression
 df
 
-## Prediction
+4. Prediction
 df
 
-## Conclusion
+5. Conclusion
 dsfv

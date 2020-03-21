@@ -36,39 +36,3 @@ Around March 16th, first precautionary measures have been taken on a broader sca
 
 Between February 29th and March 21st, the growth of cases showed a linear trend over time on a semi-log scale.
 
-![trend](2020_03_21_covid19_log_and_trend_germany.JPG)
-
-
-**2. Linear Regression**
-
-It is easy to get an estimate of the current growth of COVID-19 infections in Germany. Simply run a linear regression on the log of cases (y) with the number of days on the right hand side of the equation (x).
-
-![equ](https://latex.codecogs.com/gif.latex?log(y)=\beta_0&space;&plus;&space;\beta_1&space;x&space;&plus;&space;u.)
-
-The regression results are:
-
-```
-Coefficients:
-            Estimate Std. Error t value Pr(>|t|)    
-(Intercept) 4.350969   0.077251   56.32   <2e-16 ***
-ntime       0.253310   0.005882   43.07   <2e-16 ***
----
-Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
-
-Residual standard error: 0.175 on 20 degrees of freedom
-Multiple R-squared:  0.9893,	Adjusted R-squared:  0.9888 
-F-statistic:  1855 on 1 and 20 DF,  p-value: < 2.2e-16
-```
-
-The results imply that the growth rate of COVID-19 cases in Germany over the last 22 days was about 29% [on average](https://www.uni-regensburg.de/wirtschaftswissenschaften/vwl-tschernig/medien/mitarbeiter/rameseder/interpretation.pdf).
-
-
-**3. Prediction**
-
-Because the incubation period of the corona virus is relatively long, we can reasonably assume, the the current trend will continue for the next ten to 14 days. 
-
-![pred](2020_03_21_covid19_prediction_germany.JPG)
-
-**4. Conclusion**
-
-dsfv

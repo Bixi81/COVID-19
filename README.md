@@ -1,19 +1,45 @@
 # COVID-19
 Some data wrangling on COVID-19
 
-1. Data
+1. Data and Basic Trends
 
-Data on COVID-19 cases are currently published daily by [Robert Koch-Institut (RKI)](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html)
+Data on COVID-19 cases are currently published daily by [Robert Koch-Institut (RKI)](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html).
+
+     |time| cases| 
+|---|---|
+|  2020-02-29  |     66|
+|  2020-03-01  |    117|
+|  2020-03-02   |   150|
+|  2020-03-03    |  188|
+|  2020-03-04   |   262|
+|  2020-03-05   |   349|
+|  2020-03-06   |   639|
+|  2020-03-07   |   795|
+|  2020-03-08   |   902|
+| 2020-03-09    | 1139|
+| 2020-03-10    | 1296|
+| 2020-03-11    | 1567|
+| 2020-03-12|     2369|
+| 2020-03-13|     3062|
+| 2020-03-14|     3795|
+| 2020-03-15|     4838|
+| 2020-03-16|     6012|
+| 2020-03-17|     7156|
+| 2020-03-18|     8198|
+| 2020-03-19|    10999|
+| 2020-03-20|    13957|
+| 2020-03-21|    16662|
+
+Around March 16th, first precautionary measures have been taken on a broader scale by German States (Bundesländer), including official recommendations to stay at home if possible and to avoid unnecessary travels. From March 21th onwards stronger regulation is in place in two States (Bayern, Saarland), basically restricting freedom of movement for most people.
 
 
-2. Basic Trends
-dfsv
 
-3. Linear Regression
+
+2. Linear Regression
 df
 
-4. Prediction
+3. Prediction
 df
 
-5. Conclusion
+4. Conclusion
 dsfv

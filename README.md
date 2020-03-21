@@ -6,7 +6,7 @@ Some data wrangling on COVID-19
 Data on COVID-19 cases are currently published daily by [Robert Koch-Institut (RKI)](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html).
 
 
-|time| cases| 
+|Date| Cases| 
 |---|---|
 |  2020-02-29  |     66|
 |  2020-03-01  |    117|
@@ -32,6 +32,10 @@ Data on COVID-19 cases are currently published daily by [Robert Koch-Institut (R
 | 2020-03-21|    16662|
 
 Around March 16th, first precautionary measures have been taken on a broader scale by German States (Bundesländer), including official recommendations to stay at home if possible and to avoid unnecessary travels. From March 21th onwards stronger regulation is in place in two States (Bayern, Saarland), basically restricting freedom of movement for most people.
+
+Between February 29th and March 21st, the growth of cases showed a linear trend.
+
+(href="//imgur.com/a/TZtca6C">)
 
 
 

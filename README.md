@@ -35,6 +35,7 @@ Around March 16th, first precautionary measures have been taken on a broader sca
 
 Between February 29th and March 21st, the growth of cases showed a linear trend.
 
+!(2020_03_21_covid19_log_and_trend_germany.JPG)
 
 
 

@@ -74,7 +74,7 @@ If we *could* have knocked off only a few percentage points from the growth rate
 
 Under the assumtion of a 17% growth rate of newly infected people, the total number of infections would be much lower (green line in the plot below).
 
-** Thus, it is extremely immportant, to do anything that can be done, to slow down the current pace of new infections.** If the current trend would continue over a longer period (say 4-6 weeks), the consequences could be extreme.
+**Thus, it is extremely immportant, to do anything that can be done, to slow down the current pace of new infections.** If the current trend would continue over a longer period (say 4-6 weeks), the consequences could be extreme.
 
 ![pred](2020_03_21_covid19_prediction_germany.JPG)
 

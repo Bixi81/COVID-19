@@ -36,3 +36,48 @@ Around March 16th, first precautionary measures have been taken on a broader sca
 
 Between February 29th and March 21st, the growth of cases showed a linear trend over time on a semi-log scale.
 
+
+![trend](2020_03_21_covid19_log_and_trend_germany.JPG)
+
+
+**2. Linear Regression**
+
+It is easy to get an estimate of the current growth of COVID-19 infections in Germany. Simply run a linear regression on the log of cases (y) with the number of days on the right hand side of the equation (x). I use only the last week to estimate the current trend in new infections in order to capture the latest trend.
+
+![equ](https://latex.codecogs.com/gif.latex?log(y)=\beta_0&space;&plus;&space;\beta_1&space;x&space;&plus;&space;u.)
+
+The regression results are:
+
+```
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 8.042650   0.030129  266.94 1.87e-13 ***
+ntime       0.209543   0.005966   35.12 3.55e-08 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.03867 on 6 degrees of freedom
+Multiple R-squared:  0.9952,	Adjusted R-squared:  0.9944 
+F-statistic:  1233 on 1 and 6 DF,  p-value: 3.552e-08
+```
+
+The results imply that the growth rate of COVID-19 cases in Germany over the last week was about 23% [on average](https://www.uni-regensburg.de/wirtschaftswissenschaften/vwl-tschernig/medien/mitarbeiter/rameseder/interpretation.pdf).
+
+
+**3. Prediction**
+
+Because the incubation period of the corona virus is relatively long, we can reasonably assume, that the current trend will continue for the next ten or so days.
+
+Under the assumtion that the growth of newly infected people will be unchanged (compared to last week), we will see a strong increase in the total number of cases in Germany until the end of March (this is the red line in the figure below). 
+
+If we *could* have knocked off only a few percentage points from the growth rate - say 17% instead of 23% - the situation would be entirely different!
+
+Under the assumtion of a 17% growth rate of newly infected people, the total number of infections would be much lower (green line in the plot below).
+
+** Thus, it is extremely immportant, to do anything that can be done, to slow down the current pace of new infections.** If the current trend would continue over a longer period (say 4-6 weeks), the consequences could be extreme.
+
+![pred](2020_03_21_covid19_prediction_germany.JPG)
+
+**4. Conclusion**
+
+Stay at home!

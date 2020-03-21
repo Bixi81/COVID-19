@@ -1,5 +1,5 @@
 # COVID-19
-Some data wrangling on COVID-19
+This article presents a brief overview of the current development of COVID-19 cases in Germany as of 21 March 2020. I identify the rate of growth in new infections per day and look at short term development of cases (overall numer of infected people) under different growth assumtions.
 
 **1. Data and Basic Trends**
 

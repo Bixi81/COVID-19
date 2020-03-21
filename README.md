@@ -35,7 +35,7 @@ Around March 16th, first precautionary measures have been taken on a broader sca
 
 Between February 29th and March 21st, the growth of cases showed a linear trend.
 
-(href="//imgur.com/a/TZtca6C">)
+!(href="//imgur.com/a/TZtca6C">)
 
 
 

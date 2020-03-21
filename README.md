@@ -5,7 +5,8 @@ Some data wrangling on COVID-19
 
 Data on COVID-19 cases are currently published daily by [Robert Koch-Institut (RKI)](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html).
 
-     |time| cases| 
+
+|time| cases| 
 |---|---|
 |  2020-02-29  |     66|
 |  2020-03-01  |    117|

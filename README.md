@@ -40,9 +40,22 @@ Between February 29th and March 21st, the growth of cases showed a linear trend 
 
 2. Linear Regression
 
-It is easy to get an estimate of the current growth of COVID-19 infections in Germany. Simply run a linear regression on the log of cases with days on the right hand side of the equation.
+It is easy to get an estimate of the current growth of COVID-19 infections in Germany. Simply run a linear regression on the log of cases (y) with the number of days on the right hand side of the equation (x).
 
 ![equ](https://latex.codecogs.com/gif.latex?log(y)=\beta_0&space;&plus;&space;\beta_1&space;x&space;&plus;&space;u.)
+
+```
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 4.350969   0.077251   56.32   <2e-16 ***
+ntime       0.253310   0.005882   43.07   <2e-16 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.175 on 20 degrees of freedom
+Multiple R-squared:  0.9893,	Adjusted R-squared:  0.9888 
+F-statistic:  1855 on 1 and 20 DF,  p-value: < 2.2e-16
+```
 
 3. Prediction
 df

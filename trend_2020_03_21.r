@@ -1,3 +1,4 @@
+
 # COVID-19 cases Germany (Source: RKI / https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html)
 
 time = c("29-02-2020","01-03-2020","02-03-2020","03-03-2020","04-03-2020","05-03-2020","06-03-2020","07-03-2020","08-03-2020",
@@ -21,13 +22,16 @@ axis(1, df$time, format(df$time, "%d.%m"), cex.axis = .8,las = 2)
 reg = lm(log(cases)~ntime, data=df)
 summary(reg)
 
+# Growth rate
+exp(reg$coefficients[2])-1
+
 # Compare actual values and prediction
 pred = predict(reg, newdata=df)
 res = data.frame(pred, log(cases), ntime, cases, round(exp(pred)))
 colnames(res)<-c("pred", "logcases", "ntime", "cases", "exp_pred")
 
 # Plot actual values and prediction
-plot(res$ntime,res$logcases, xlab = "Days", ylab="Log of cases")
+plot(res$ntime,res$logcases, xlab = "Days", ylab="Log of cases", main="COVID-19: Cases in Germany (log-scale and linear trend)")
 lines(res$ntime,res$pred,col="blue")
 
 # Predict cases over longer period assuming growth rates
@@ -44,3 +48,4 @@ lines(mycases2 ~ mydates, ltp, type="o", col="green")
 lines(cases ~ time, df, type = "o", col = "blue")
 axis(1, ltp$mydates, format(ltp$mydates, "%d.%m"), cex.axis = .6,las = 2)
 abline(v=as.Date("21-03-2020","%d-%m-%Y"), col=c("black"),lty=2)
+abline(v=as.Date("04-04-2020","%d-%m-%Y"), col=c("black"),lty=2)

@@ -1,7 +1,7 @@
 # COVID-19
 Some data wrangling on COVID-19
 
-1. Data and Basic Trends
+**1. Data and Basic Trends**
 
 Data on COVID-19 cases are currently published daily by [Robert Koch-Institut (RKI)](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html).
 
@@ -38,11 +38,13 @@ Between February 29th and March 21st, the growth of cases showed a linear trend 
 ![trend](2020_03_21_covid19_log_and_trend_germany.JPG)
 
 
-2. Linear Regression
+**2. Linear Regression**
 
 It is easy to get an estimate of the current growth of COVID-19 infections in Germany. Simply run a linear regression on the log of cases (y) with the number of days on the right hand side of the equation (x).
 
 ![equ](https://latex.codecogs.com/gif.latex?log(y)=\beta_0&space;&plus;&space;\beta_1&space;x&space;&plus;&space;u.)
+
+The regression results are:
 
 ```
 Coefficients:
@@ -57,8 +59,12 @@ Multiple R-squared:  0.9893,	Adjusted R-squared:  0.9888
 F-statistic:  1855 on 1 and 20 DF,  p-value: < 2.2e-16
 ```
 
-3. Prediction
+
+
+**3. Prediction**
+
 df
 
-4. Conclusion
+**4. Conclusion**
+
 dsfv

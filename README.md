@@ -80,7 +80,7 @@ Under the assumtion of a 17% growth rate of newly infected people, the total num
 
 ![pred](2020_03_21_covid19_prediction_germany.JPG)
 
-The figure shows actual cases (until 21 March 2020) and the predicted number of cases (from 21 March onwards) under the assumption of unchanged growth rate of 23% (red) and a lower growth rate (green) of 17%.
+The figure shows actual cases (gerrn, until 21 March 2020) and the predicted number of cases (from 21 March onwards) under the assumption of unchanged growth rate of 23% (red) and a lower growth rate (green) of 17%.
 
 **4. Conclusion**
 

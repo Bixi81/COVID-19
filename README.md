@@ -60,7 +60,7 @@ Multiple R-squared:  0.9893,	Adjusted R-squared:  0.9888
 F-statistic:  1855 on 1 and 20 DF,  p-value: < 2.2e-16
 ```
 
-The results imply that COVID-19 cases grow by about 29% [on average](https://www.uni-regensburg.de/wirtschaftswissenschaften/vwl-tschernig/medien/mitarbeiter/rameseder/interpretation.pdf).
+The results imply that the growth rate of COVID-19 cases in Germany over the last 22 days was about 29% [on average](https://www.uni-regensburg.de/wirtschaftswissenschaften/vwl-tschernig/medien/mitarbeiter/rameseder/interpretation.pdf).
 
 
 **3. Prediction**

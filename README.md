@@ -42,7 +42,7 @@ Between February 29th and March 21st, the growth of cases showed a linear trend 
 
 It is easy to get an estimate of the current growth of COVID-19 infections in Germany.
 
-- <img src="https://latex.codecogs.com/gif.latex?O_t=\text { Onset event at time bin } t " /> 
+![equ](https://latex.codecogs.com/gif.latex?log(y)=\beta_0&space;&plus;&space;\beta_1&space;x&space;&plus;&space;u)
 
 3. Prediction
 df

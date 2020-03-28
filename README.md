@@ -41,9 +41,9 @@ Data on COVID-19 cases are currently published daily by [Robert Koch-Institut (R
 | 2020-03-27|    42288|    
 | 2020-03-28|    48582|     
 
-Around March 16th, first precautionary measures have been taken on a broader scale by German States (Bundesländer), including official recommendations to stay at home if possible and to avoid unnecessary travels. From March 21th onwards stronger regulation is in place in two States (Bayern, Saarland), basically limitating freedom of movement for most people. 
+Around 16 March 2020, first precautionary measures have been taken on a broader scale by German States (Bundesländer), including official recommendations to stay at home if possible and to avoid unnecessary travels. From 21 March 2020 onwards, stronger regulation is in place in two States (Bayern, Saarland), basically limitating freedom of movement for most people. 
 
-Starting March 23rd, similar restrictions have been implemented all over Germany. In detail these restrictions include a ban on gatherings of more than two people in the public. All restaurants and bars and most of shops are closed. All events are called off including sport events. Many factories are closed. Many office workers work from home. 
+Starting 23 March 2020, similar restrictions have been implemented all over Germany. These restrictions include a ban on gatherings of more than two people in the public. All restaurants and bars and most of shops are closed. All events are called off including sport events, concerts etc. Many factories are closed (including car makers such as Daimler, BMW, Volkswagen). Many office workers work from home.  
 
 On a semi-log scale, the number of newly discovered/reported infections keeps growing steadily. However, there seems to be a slight decrease of the growth rate over time on average.
 

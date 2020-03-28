@@ -47,11 +47,11 @@ Starting March 23rd, similar restrictions have been implemented all over Germany
 
 On a semi-log scale, the number of newly discovered/reported infections keeps growing steadily. However, there seems to be a slight decrease of the growth rate over time on average.
 
-![trend1](2020-03-28_cases_log_scale.JPG)
+![trend1](2020-03-28_cases_log_scale.png)
 
 Between 22 March 2020 and 28 March 2020, the growth of newly discovered/reported infections showed a linear trend over time on a semi-log scale.
 
-![trend2](2020-03-28_trend.JPG)
+![trend2](2020-03-28_trend.png)
 
 
 **2. Linear Regression**
@@ -82,7 +82,7 @@ The results imply that the growth rate of COVID-19 cases in Germany over the las
 
 Under the assumtion that the growth of newly discovered/reported infections will be unchanged (compared to last week), it is possible to predict the number of newly discovered/reported infections over the next few days.
 
-![pred](2020-03-28_pred.JPG)
+![pred](2020-03-28_pred.png)
 
 The figure shows actual cases (blue) and the predicted number of cases under the assumption of unchanged growth rate (red: linear OLS / black: OLS with raw polinomial to the powwer of four).
 

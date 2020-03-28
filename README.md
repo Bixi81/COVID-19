@@ -4,7 +4,7 @@ Last update: 28 March 2020
 
 This article presents a brief overview of the current development of COVID-19 cases in Germany. I investigate the rate of growth of newly discovered/reported infections in Germany and look at short term development of cases, assuming an unchanged growth rate. Find the R source code [here](https://github.com/Bixi81/COVID-19/blob/master/2020_03_28_covid19.r).
 
-**1. Data and Basic Trends**
+**1. Current Situation**
 
 Data on known COVID-19 cases in Germany are currently published daily by the [Robert Koch-Institut (RKI)](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html).
 
@@ -43,7 +43,11 @@ Data on known COVID-19 cases in Germany are currently published daily by the [Ro
 
 Around 16 March 2020, first precautionary measures have been taken on a broader scale by German States (Bundesländer), including official recommendations to stay at home if possible and to avoid unnecessary travels. From 21 March 2020 onwards, stronger regulation is in place in two States (Bayern, Saarland), basically limitating freedom of movement for most people. 
 
-Starting 23 March 2020, similar restrictions have been implemented all over Germany. These restrictions include a ban on gatherings of more than two people in the public. All restaurants and bars and most of shops are closed. All events are called off including sport events, concerts etc. Many factories are closed (including car makers such as Daimler, BMW, Volkswagen). Many office workers work from home.  
+Starting 23 March 2020, similar restrictions have been implemented all over Germany. These restrictions include a ban on gatherings of more than two people in the public. All restaurants and bars and most of shops are closed. All events are called off including sport events, concerts etc. Many factories are closed (including car makers such as Daimler, BMW, Volkswagen). Many office workers work from home. These restrictions will stay in force at least until 20 April 2020, according to the Bundesregierung (as of 28 March 2020).
+
+The testing capacity in Germany is about 360,000 per week, according to the German ministry of health. About 10% of tested persons are tested positive (as of 28 March 2020).
+
+**2. Overall Trends**
 
 On a semi-log scale, the number of newly discovered/reported infections keeps growing steadily. However, there seems to be a slight decrease of the growth rate over time on average.
 
@@ -54,7 +58,7 @@ Between 22 March 2020 and 28 March 2020, the growth of newly discovered/reported
 ![trend2](2020-03-28_trend.png)
 
 
-**2. Growth rate**
+**3. Growth Rate**
 
 The current growth of COVID-19 infections in Germany (last seven days) is estimated using a linear regression on the log of cases (y) with the number of days as independent variable (x). The estimation is based on the last seven days, to capture the current trend in newly discovered/reported infections.
 
@@ -78,7 +82,7 @@ F-statistic: 967.6 on 1 and 5 DF,  p-value: 6.446e-07
 The results imply that the growth rate of COVID-19 cases in Germany over the last week was about 17% [on average](https://www.uni-regensburg.de/wirtschaftswissenschaften/vwl-tschernig/medien/mitarbeiter/rameseder/interpretation.pdf).
 
 
-**3. Prediction**
+**4. Prediction**
 
 Under the assumtion that the growth of newly discovered/reported infections will be unchanged (compared to last week), it is possible to predict the number of newly discovered/reported infections over the next few days.
 
@@ -86,6 +90,6 @@ Under the assumtion that the growth of newly discovered/reported infections will
 
 The figure shows actual cases (blue) and the predicted number of cases under the assumption of unchanged growth rate (red: linear OLS / black: OLS with raw polinomial to the powwer of four).
 
-**4. Conclusion**
+**5. Conclusion**
 
 Stay at home!

@@ -47,6 +47,8 @@ Starting 23 March 2020, similar restrictions have been implemented all over Germ
 
 The testing capacity in Germany is about 360,000 per week, according to the German ministry of health. About 10% of tested persons are tested positive (as of 28 March 2020).
 
+As of 30 March, according to Deutsche Krankenhausgesellschaft (DKG), 7000 people are treated in hospitals in Germany because of Covid-19 infections. 1500 of the 7000 are in intensive care and 1100 are treated using ventilators.
+
 **2. Overall Trends**
 
 On a semi-log scale, the number of newly discovered/reported infections keeps growing steadily. However, there seems to be a slight decrease of the growth rate over time on average.

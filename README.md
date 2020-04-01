@@ -92,7 +92,7 @@ The results imply that the growth rate of COVID-19 cases in Germany over the las
 The growth rate kept falling over the last few days:
 
 
-|Date| 7 day growth trend| 
+|Date| Seven day growth trend| 
 |---|---|
 |24.03. | 0.21 |
 |25.03. | 0.19|
@@ -105,7 +105,7 @@ The growth rate kept falling over the last few days:
 |1.4 | 0.10|
 
 
-**4. Prediction of newly discovered/reported infections**
+**4. Prediction of Newly Discovered/Reported Infections**
 
 Under the assumtion that the growth of newly discovered/reported infections will be unchanged (compared to last week), it is possible to predict the number of newly discovered/reported infections over the next few days. 
 
@@ -115,7 +115,7 @@ Provided that the current trend continues, the number of infected people would d
 
 The figure shows actual cases (blue) and the predicted number of cases under the assumption of unchanged growth rate (red: linear OLS on semi-log scale).
 
-**5. Deaths and known infections by age**
+**5. Deaths and Known Infections by Age**
 
 [RKI](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0) also provides patient-level data by county. Patient information include age groups. The data shows that most infected people are 35 to 59 years old (about 48%). In the age groups 60 to 79 (18%) and 80+ (6%), there are relatively few known cases.
 

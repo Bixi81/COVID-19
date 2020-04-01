@@ -1,6 +1,6 @@
 # COVID-19 Cases in Germany
 
-Last update: 28 March 2020
+Last update: 1 April 2020
 
 This article presents a brief overview of the current development of COVID-19 cases in Germany. I investigate the rate of growth of newly discovered/reported infections in Germany and look at short term development of cases, assuming an unchanged growth rate. Find the R source code [here](https://github.com/Bixi81/COVID-19/blob/master/2020_03_28_covid19.r).
 
@@ -39,7 +39,11 @@ Data on known COVID-19 cases in Germany are currently published daily by the [Ro
 | 2020-03-25|    31554|    
 | 2020-03-26|    36508|    
 | 2020-03-27|    42288|    
-| 2020-03-28|    48582|     
+| 2020-03-28|    48582|   
+|2020-03-29| 52547|
+|2020-03-30| 57298|
+|2020-03-31| 61913|
+|2020-04-01| 67366|
 
 Around 16 March 2020, first precautionary measures have been taken on a broader scale by German States (Bundesländer), including official recommendations to stay at home if possible and to avoid unnecessary travels. From 21 March 2020 onwards, stronger regulation is in place in two States (Bayern, Saarland), basically limitating freedom of movement for most people. 
 
@@ -53,13 +57,13 @@ As of 31 March, the lethality of Covid-19 in Germany is about 0.8 percent accord
 
 **2. Overall Trends**
 
-On a semi-log scale, the number of newly discovered/reported infections keeps growing steadily. However, there seems to be a slight decrease of the growth rate over time on average.
+On a semi-log scale, the number of newly discovered/reported infections keeps growing. However, there is a slight decrease of the growth rate over time on average.
 
-![trend1](2020-03-28_cases_log_scale.png)
+![trend1](2020-04-01_cases_log_scale.png)
 
-Between 22 March 2020 and 28 March 2020, the growth of newly discovered/reported infections showed a linear trend over time on a semi-log scale.
+Since 26 March, the growth of newly discovered/reported infections shows a linear trend on a semi-log scale. But more recent observations are below the linear trend line, indicating a falling rate.
 
-![trend2](2020-03-28_trend.png)
+![trend2](2020-04-01_trend.png)
 
 
 **3. Growth Rate**
@@ -72,28 +76,53 @@ The regression results are:
 
 ```
 Coefficients:
-            Estimate Std. Error t value Pr(>|t|)    
-(Intercept) 9.710983   0.022650  428.74 1.31e-12 ***
-ntime       0.157539   0.005065   31.11 6.45e-07 ***
+             Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 10.451447   0.027452  380.72 2.37e-12 ***
+ntime        0.098760   0.006138   16.09 1.69e-05 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 0.0268 on 5 degrees of freedom
-Multiple R-squared:  0.9949,	Adjusted R-squared:  0.9938 
-F-statistic: 967.6 on 1 and 5 DF,  p-value: 6.446e-07
+Residual standard error: 0.03248 on 5 degrees of freedom
+Multiple R-squared:  0.9811,	Adjusted R-squared:  0.9773 
+F-statistic: 258.9 on 1 and 5 DF,  p-value: 1.69e-05
 ```
 
-The results imply that the growth rate of COVID-19 cases in Germany over the last week was about 17% [on average](https://www.uni-regensburg.de/wirtschaftswissenschaften/vwl-tschernig/medien/mitarbeiter/rameseder/interpretation.pdf).
+The results imply that the growth rate of COVID-19 cases in Germany over the last week was about 10% [on average](https://www.uni-regensburg.de/wirtschaftswissenschaften/vwl-tschernig/medien/mitarbeiter/rameseder/interpretation.pdf).
+
+The growth rate kept falling over the last few days:
 
 
-**4. Prediction**
+|Date| 7 day growth trend| 
+|---|---|
+|24.03. | 0.21 |
+|25.03. | 0.19|
+|26.03 | 0.18|
+|27.03. | 0.17|
+|28.03. | 0.17|
+|29.03 | 0.15|
+|30.3 | 0.13|
+|31.3 | 0.12|
+|1.4 | 0.10|
+
+
+**4. Prediction of newly discovered/reported infections**
 
 Under the assumtion that the growth of newly discovered/reported infections will be unchanged (compared to last week), it is possible to predict the number of newly discovered/reported infections over the next few days.
 
-![pred](2020-03-28_pred.png)
+![pred](2020-04-01_pred.png)
 
-The figure shows actual cases (blue) and the predicted number of cases under the assumption of unchanged growth rate (red: linear OLS / black: OLS with raw polinomial to the powwer of four).
+The figure shows actual cases (blue) and the predicted number of cases under the assumption of unchanged growth rate (red: linear OLS).
 
-**5. Conclusion**
+**5. Deaths and known infections by age**
+
+[RKI](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0) also provides patient-level data by county. Patient information include also age groups. The data shows that most infected people are 35 to 59 years old (about 48%). In the age groups 60 to 79 (18%) and 80+ (6%), there are relatively few known cases.
+
+![infected](2020-04-01_cases_age.png)
+
+However, when looking at deaths, the age groups 80+ (63%) and 60-79 years (31%) are extremely over-represented. This implies that - as of today - mostly older people die in consequence of a Covid-19 infection.
+
+![infected](2020-04-01_cases_death.png)
+
+**6. Conclusion**
 
 Stay at home!

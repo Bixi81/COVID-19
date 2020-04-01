@@ -107,11 +107,13 @@ The growth rate kept falling over the last few days:
 
 **4. Prediction of newly discovered/reported infections**
 
-Under the assumtion that the growth of newly discovered/reported infections will be unchanged (compared to last week), it is possible to predict the number of newly discovered/reported infections over the next few days.
+Under the assumtion that the growth of newly discovered/reported infections will be unchanged (compared to last week), it is possible to predict the number of newly discovered/reported infections over the next few days. 
+
+Provided that the current trend continues, the number of infected people would double in about seven to eight days.
 
 ![pred](2020-04-01_pred.png)
 
-The figure shows actual cases (blue) and the predicted number of cases under the assumption of unchanged growth rate (red: linear OLS).
+The figure shows actual cases (blue) and the predicted number of cases under the assumption of unchanged growth rate (red: linear OLS on semi-log scale).
 
 **5. Deaths and known infections by age**
 
@@ -121,7 +123,7 @@ The figure shows actual cases (blue) and the predicted number of cases under the
 
 However, when looking at deaths, the age groups 80+ (63%) and 60-79 years (31%) are extremely over-represented. This implies that - as of today - mostly older people die in consequence of a Covid-19 infection.
 
-![infected](2020-04-01_cases_death.png)
+![infected](2020-04-01_death_age.png)
 
 **6. Conclusion**
 

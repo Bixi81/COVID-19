@@ -44,6 +44,7 @@ Data on known COVID-19 cases in Germany are currently published daily by the [Ro
 |2020-03-30| 57298|
 |2020-03-31| 61913|
 |2020-04-01| 67366|
+|2020-04-02| 75522|
 
 Around 16 March 2020, first precautionary measures have been taken on a broader scale by German States (Bundesländer), including official recommendations to stay at home if possible and to avoid unnecessary travels. From 21 March 2020 onwards, stronger regulation is in place in two States (Bayern, Saarland), basically limitating freedom of movement for most people. 
 

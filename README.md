@@ -79,6 +79,10 @@ Between 2020-03-29 and 2020-04-04 the growth rate of reported deaths was: 0.21.
 
 Find a time series of growth rates [here](https://github.com/Bixi81/COVID-19/blob/master/2020-04-04_growth_covid19_germany.csv).
 
+The figure below shows growth rates of newly discovered/reported infections/deaths (estimated over a seven day "lookback" period) over time.
+
+![growth](2020-04-04growth_rates.png)
+
 
 **4. Prediction of Newly Discovered/Reported Infections and Reported Deaths**
 

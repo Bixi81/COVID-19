@@ -71,7 +71,7 @@ Since 26 March, the growth of newly discovered/reported infections shows a linea
 ![trend2](2020-04-01_trend.png)
 
 
-**3. Growth Rate**
+**3. Newly Discovered/Reported Infections: Growth Rate**
 
 The current growth of COVID-19 infections in Germany (last seven days) is estimated using a linear regression on the log of cases (y) with the number of days as independent variable (x). The estimation is based on the last seven days, to capture the current trend in newly discovered/reported infections.
 

@@ -43,7 +43,7 @@ The current growth of COVID-19 infections/deaths in Germany (last seven days) is
 
 The regression results are:
 
-**Infections**
+**a) Infections**
 
 ```
 Coefficients:
@@ -58,7 +58,7 @@ Multiple R-squared:  0.9996,	Adjusted R-squared:  0.9995
 F-statistic: 1.189e+04 on 1 and 5 DF,  p-value: 1.23e-09
 ```
 
-**Deaths**
+**b) Deaths**
 
 ```
 Coefficients:
@@ -84,11 +84,10 @@ Find a time series of growth rates [here](https://github.com/Bixi81/COVID-19/blo
 
 Under the assumtion that the growth of newly discovered/reported infections/deaths will be unchanged (compared to last week), it is possible to predict the number of newly discovered/reported infections/deaths over the next few days. 
 
-The figure below shows actual cases (blue) and the predicted number of cases under the assumption of unchanged growth rate (red: linear OLS on semi-log scale).
+The figures below show actual cases/deaths (blue) and the predicted number of cases/deaths under the assumption of unchanged growth rate (red: linear OLS on semi-log scale).
 
 ![pred1](2020-04-04cases_pred.png)
 
-The figure below shows actual deaths (blue) and the predicted number of deaths under the assumption of unchanged growth rate (red: linear OLS on semi-log scale).
 
 ![pred2](2020-04-04deaths_pred.png)
 

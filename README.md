@@ -1,6 +1,6 @@
 # COVID-19 Cases in Germany
 
-Last update: 1 April 2020
+Last update: 4 April 2020
 
 This article presents a brief overview of the current development of COVID-19 cases in Germany. I investigate the rate of growth of newly discovered/reported infections in Germany and look at short term development of cases, assuming an unchanged growth rate. Find the R source code [here](https://github.com/Bixi81/COVID-19/blob/master/2020_03_28_covid19.r).
 
@@ -8,43 +8,7 @@ This article presents a brief overview of the current development of COVID-19 ca
 
 Data on known COVID-19 cases in Germany are currently published daily by the [Robert Koch-Institut (RKI)](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html).
 
-
-|Date| Cases| 
-|---|---|
-|  2020-02-29  |     66|
-|  2020-03-01  |    117|
-|  2020-03-02   |   150|
-|  2020-03-03   |   188|
-|  2020-03-04   |   262|
-|  2020-03-05   |   349|
-|  2020-03-06   |   639|
-|  2020-03-07   |   795|
-|  2020-03-08   |   902|
-| 2020-03-09    | 1139|
-| 2020-03-10    | 1296|
-| 2020-03-11    | 1567|
-| 2020-03-12|     2369|
-| 2020-03-13|     3062|
-| 2020-03-14|     3795|
-| 2020-03-15|     4838|
-| 2020-03-16|     6012|
-| 2020-03-17|     7156|
-| 2020-03-18|     8198|
-| 2020-03-19|    10999|
-| 2020-03-20|    13957|
-| 2020-03-21|    16662|
-| 2020-03-22|    18610|    
-| 2020-03-23|    22672|    
-| 2020-03-24|    27436|    
-| 2020-03-25|    31554|    
-| 2020-03-26|    36508|    
-| 2020-03-27|    42288|    
-| 2020-03-28|    48582|   
-|2020-03-29| 52547|
-|2020-03-30| 57298|
-|2020-03-31| 61913|
-|2020-04-01| 67366|
-|2020-04-02| 75522|
+Find time series data on reported cases and deaths [here](https://github.com/Bixi81/COVID-19/blob/master/2020-04-04_covid19_germany.csv).
 
 Around 16 March 2020, first precautionary measures have been taken on a broader scale by German States (Bundesländer), including official recommendations to stay at home if possible and to avoid unnecessary travels. From 21 March 2020 onwards, stronger regulation is in place in two States (Bayern, Saarland), basically limitating freedom of movement for most people. 
 
@@ -64,71 +28,79 @@ As of 4 April 2020, according to German [media reports](https://www.swr.de/swrak
 
 On a semi-log scale, the number of newly discovered/reported infections keeps growing. However, there is a slight decrease of the growth rate over time on average.
 
-![trend1](2020-04-01_cases_log_scale.png)
+![trend1](2020-04-04_cases_log_scale.png)
 
-Since 26 March, the growth of newly discovered/reported infections shows a linear trend on a semi-log scale. But more recent observations are below the linear trend line, indicating a falling rate.
+Again on a semi-log scale, the number of reported deaths shows a relatively stable growth trend.
 
-![trend2](2020-04-01_trend.png)
+![trend2](2020-04-04_deaths_log_scale.png)
 
 
-**3. Newly Discovered/Reported Infections: Growth Rate**
+**3. Growth Rates**
 
-The current growth of COVID-19 infections in Germany (last seven days) is estimated using a linear regression on the log of cases (y) with the number of days as independent variable (x). The estimation is based on the last seven days, to capture the current trend in newly discovered/reported infections.
+The current growth of COVID-19 infections/deaths in Germany (last seven days) is estimated using a linear regression on the log of cases/deaths (y) with the number of days as independent variable (x). The estimation is based on the last seven days, to capture the current trend in newly discovered/reported infections.
 
 ![equ](https://latex.codecogs.com/gif.latex?log(y)=\beta_0&space;&plus;&space;\beta_1&space;x&space;&plus;&space;u.)
 
 The regression results are:
 
+**Infections**
+
 ```
 Coefficients:
              Estimate Std. Error t value Pr(>|t|)    
-(Intercept) 10.451447   0.027452  380.72 2.37e-12 ***
-ntime        0.098760   0.006138   16.09 1.69e-05 ***
+(Intercept) 10.789396   0.003372    3200  < 2e-16 ***
+ntime        0.082212   0.000754     109 1.23e-09 ***
 ---
 Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
 
-Residual standard error: 0.03248 on 5 degrees of freedom
-Multiple R-squared:  0.9811,	Adjusted R-squared:  0.9773 
-F-statistic: 258.9 on 1 and 5 DF,  p-value: 1.69e-05
+Residual standard error: 0.00399 on 5 degrees of freedom
+Multiple R-squared:  0.9996,	Adjusted R-squared:  0.9995 
+F-statistic: 1.189e+04 on 1 and 5 DF,  p-value: 1.23e-09
 ```
 
-The results imply that the growth rate of COVID-19 cases in Germany over the last week was about 10% [on average](https://www.uni-regensburg.de/wirtschaftswissenschaften/vwl-tschernig/medien/mitarbeiter/rameseder/interpretation.pdf).
+**Deaths**
 
-The growth rate kept falling over the last few days:
+```
+Coefficients:
+            Estimate Std. Error t value Pr(>|t|)    
+(Intercept) 5.787693   0.037300  155.16 2.11e-10 ***
+ntime       0.188709   0.008341   22.62 3.14e-06 ***
+---
+Signif. codes:  0 ‘***’ 0.001 ‘**’ 0.01 ‘*’ 0.05 ‘.’ 0.1 ‘ ’ 1
+
+Residual standard error: 0.04413 on 5 degrees of freedom
+Multiple R-squared:  0.9903,	Adjusted R-squared:  0.9884 
+F-statistic: 511.9 on 1 and 5 DF,  p-value: 3.135e-06
+```
+
+Between 2020-03-29 and 2020-04-04 the growth rate of newly discovered/reported infections was: 0.09.
+
+Between 2020-03-29 and 2020-04-04 the growth rate of reported deaths was: 0.21.
+
+Find a time series of growth rates [here](https://github.com/Bixi81/COVID-19/blob/master/2020-04-04_growth_covid19_germany.csv).
 
 
-|Date| Seven day growth trend| 
-|---|---|
-|24.03. | 0.21 |
-|25.03. | 0.19|
-|26.03 | 0.18|
-|27.03. | 0.17|
-|28.03. | 0.17|
-|29.03 | 0.15|
-|30.3 | 0.13|
-|31.3 | 0.12|
-|1.4 | 0.10|
+**4. Prediction of Newly Discovered/Reported Infections and Reported Deaths**
 
+Under the assumtion that the growth of newly discovered/reported infections/deaths will be unchanged (compared to last week), it is possible to predict the number of newly discovered/reported infections/deaths over the next few days. 
 
-**4. Prediction of Newly Discovered/Reported Infections**
+The figure below shows actual cases (blue) and the predicted number of cases under the assumption of unchanged growth rate (red: linear OLS on semi-log scale).
 
-Under the assumtion that the growth of newly discovered/reported infections will be unchanged (compared to last week), it is possible to predict the number of newly discovered/reported infections over the next few days. 
+![pred1](2020-04-04cases_pred.png)
 
-Provided that the current trend continues, the number of infected people would double in about seven to eight days.
+The figure below shows actual deaths (blue) and the predicted number of deaths under the assumption of unchanged growth rate (red: linear OLS on semi-log scale).
 
-![pred](2020-04-01_pred.png)
+![pred2](2020-04-04deaths_pred.png)
 
-The figure shows actual cases (blue) and the predicted number of cases under the assumption of unchanged growth rate (red: linear OLS on semi-log scale).
-
-**5. Deaths and Known Infections by Age (as of 1 April 2020)**
+**5. Deaths and Known Infections by Age**
 
 [RKI](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0) also provides patient-level data by county. Patient information include age groups. The data shows that most infected people are 35 to 59 years old (about 48%). In the age groups 60 to 79 (18%) and 80+ (6%), there are relatively few known cases.
 
-![infected](2020-04-01_cases_age.png)
+![infected](2020-04-04_cases_age.png)
 
 However, when looking at deaths, the age groups 80+ (63%) and 60-79 years (31%) are extremely over-represented. This implies that - as of today - mostly older people die in consequence of a Covid-19 infection.
 
-![infected](2020-04-01_death_age.png)
+![infected](2020-04-04_death_age.png)
 
 **6. Conclusion**
 

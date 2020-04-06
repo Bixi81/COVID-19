@@ -8,7 +8,7 @@ This article presents a brief overview of the current development of COVID-19 ca
 
 Data on known COVID-19 cases in Germany are currently published daily by the [Robert Koch-Institut (RKI)](https://www.rki.de/DE/Content/InfAZ/N/Neuartiges_Coronavirus/Fallzahlen.html).
 
-**Find time series data on reported cases and deaths in Germany [here]**(https://github.com/Bixi81/COVID-19/blob/master/2020-04-04_covid19_germany.csv). An overview of worldwide data sources can be found [here](https://opendata.stackexchange.com/questions/16185/covid19-coronavirus-case-data-country-summary-data).
+**Find time series data on reported cases and deaths in Germany** [here](https://github.com/Bixi81/COVID-19/blob/master/2020-04-04_covid19_germany.csv). An overview of worldwide data sources can be found [here](https://opendata.stackexchange.com/questions/16185/covid19-coronavirus-case-data-country-summary-data).
 
 Around 16 March 2020, first precautionary measures have been taken on a broader scale by German States (Bundesländer), including official recommendations to stay at home if possible and to avoid unnecessary travels. From 21 March 2020 onwards, stronger regulation is in place in two States (Bayern, Saarland), basically limitating freedom of movement for most people. 
 

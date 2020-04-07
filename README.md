@@ -83,7 +83,7 @@ Find a time series of growth rates [here](https://github.com/Bixi81/COVID-19/blo
 
 The figure below shows growth rates of newly discovered/reported infections/deaths (estimated over a seven day "lookback" period) over time.
 
-![growth](2020-04-04growth_rates.png)
+![growth](verdopplungsrate.JPG)
 
 
 **4. Prediction of Newly Discovered/Reported Infections and Reported Deaths**

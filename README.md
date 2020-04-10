@@ -1,6 +1,6 @@
 # COVID-19 Cases in Germany
 
-Last update: 10 April 2020
+*Last update: 10 April 2020*
 
 This article presents a brief overview of the current development of COVID-19 cases in Germany. I investigate the rate of growth of newly discovered/reported infections/deaths in Germany and look at short term development of cases, assuming an unchanged growth rate. Find the R source code [here](https://github.com/Bixi81/COVID-19/blob/master/covid_19_county_data_germany.r).
 

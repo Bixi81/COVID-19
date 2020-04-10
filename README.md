@@ -2,7 +2,7 @@
 
 *Last update: 10 April 2020*
 
-This article presents a brief overview of the current development of COVID-19 cases in Germany. I investigate the rate of growth of newly discovered/reported infections/deaths in Germany and look at short term development of cases, assuming an unchanged growth rate. Find the R source code [here](https://github.com/Bixi81/COVID-19/blob/master/covid_19_county_data_germany.r).
+This article presents a brief overview of the current development of known COVID-19 cases/deaths in Germany. I investigate the rate of growth of newly discovered/reported infections/deaths and look at short term development [here](https://github.com/Bixi81/COVID-19/blob/master/covid_19_county_data_germany.r).
 
 **1. Current Situation**
 

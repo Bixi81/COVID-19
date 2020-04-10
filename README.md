@@ -28,9 +28,7 @@ As of 4 April 2020, according to German [media reports](https://www.swr.de/swrak
 
 **2. Overall Trends**
 
-Find a time series of growth rates [here](https://github.com/Bixi81/COVID-19/blob/master/covid19_growth_rates_germany.csv).
-
-The figure below shows growth rates of newly discovered/reported infections/deaths (estimated over a seven day "lookback" period) over time.
+The figure below shows growth rates of newly discovered/reported infections/deaths (estimated over a seven day "lookback" period) over time. Find a time series of growth rates [here](https://github.com/Bixi81/COVID-19/blob/master/covid19_growth_rates_germany.csv).
 
 ![growth](2020-04-10growth.jpg)
 
@@ -39,10 +37,10 @@ The figure below shows growth rates of newly discovered/reported infections/deat
 
 The figures below show actual cases/deaths (blue) and the predicted number of cases/deaths under the assumption of unchanged growth rate (red: linear OLS on semi-log scale).
 
-![pred1](2020-04-04cases_pred.png)
+![pred1](2020-04-10cases_trend.png)
 
 
-![pred2](2020-04-04deaths_pred.png)
+![pred2](2020-04-10deaths_trend.png)
 
 **4. Deaths and Known Infections by Age**
 

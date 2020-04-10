@@ -26,6 +26,9 @@ As of 4 April 2020, according to German [media reports](https://www.swr.de/swrak
 
 5 April 2020: Germany's chancellery minister Helge Braun - according to media reports - says that new infections must not double in less than 10 to 14 days, in order for the German health sector, to cope with the number of patients. 
 
+10 April 2020: The Austrian Government has conducted [Covid-19 tests](https://www.nzz.ch/wissenschaft/coronavirus-test-oesterreich-und-nrw-leisten-pionierarbeit-ld.1551267) on 1544 individuals on 6 April. The test results suggest that between 0.12 and 0.76 percent of the population carries the virus. This would be 28500 people in total (expected value) - about 2.3 times of known infections in Austria [as of 6 April](https://info.gesundheitsministerium.at).
+
+
 **2. Overall Trends**
 
 The figure below shows growth rates of newly discovered/reported infections/deaths (estimated over a seven day "lookback" period) over time. Find a time series of growth rates [here](https://github.com/Bixi81/COVID-19/blob/master/covid19_growth_rates_germany.csv).

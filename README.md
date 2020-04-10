@@ -1,4 +1,4 @@
-# COVID-19 Cases in Germany
+# COVID-19: Cases and Deaths in Germany
 
 *Last update: 10 April 2020*
 

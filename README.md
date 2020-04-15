@@ -30,6 +30,8 @@ As of 4 April 2020, according to German [media reports](https://www.swr.de/swrak
 
 13 April 2020: According to preliminary results of a study by Hendrik Streeck et al. in the German county of Heinsberg - one of the most affected counties in Germany - the lethality of Covid-19 is [about 0.37 percent](https://www.tagesspiegel.de/wissen/virologe-streeck-zur-coronavirus-studie-die-veroeffentlichung-zu-heinsberg-war-nicht-leichtfertig/25735672.html) in the region. 
 
+15 April 2020: The federal government (Bundesregierung) proposes to the states (Bundesländer), that public restrictions including closure of shops, bars, restaurants, schools, a ban on public gatherings and events, closure of most borders (except for commuters and goods), should keep in force until at least 3 May 2020. These restrictions have been in force sind 23 March 2020. The detailed implementation in many aspects (e.g. closure of schools and shops) is the responsibility of the States (Bundesländer).
+
 **2. Overall Trends**
 
 The figure below shows growth rates of newly discovered/reported infections/deaths (estimated over a seven day "lookback" period) over time. Find a time series of growth rates [here](https://github.com/Bixi81/COVID-19/blob/master/covid19_growth_rates_germany.csv).

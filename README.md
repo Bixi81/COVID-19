@@ -32,6 +32,8 @@ As of 4 April 2020, according to German [media reports](https://www.swr.de/swrak
 
 15 April 2020: The federal government (Bundesregierung) proposes to the states (Bundesländer), that public restrictions including closure of shops, bars, restaurants, schools, a ban on public gatherings and events, closure of most borders (except for commuters and goods), should keep in force until at least 3 May 2020. These restrictions have been in force sind 23 March 2020. The detailed implementation in many aspects (e.g. closure of schools and shops) is the responsibility of the States (Bundesländer).
 
+19 April 2020: Antibody tests in Santa Clara county (USA), carried out by researchers from Stanford University, suggest that Covid-19 cases in the county are underreported by a factor between 55-85: "Researchers estimate that if 2.5 to 4.2 percent of the county has already been infected, the true number of total cases in early April — both active and recovered — ranges between 48,000 and 81,000. The county had reported just under 1,000 cases at the time the study was conducted". [Source](https://www.sfgate.com/news/editorspicks/article/Santa-Clara-antibody-test-coronavirus-results-case-15208216.php?fbclid=IwAR2EZv9UpD2CSN5wMsn3hhAHsAxL5Tru5PLaui6EMgPH-2wKwuW_ZcguwB8).
+
 **2. Overall Trends**
 
 The figure below shows growth rates of newly discovered/reported infections/deaths (estimated over a seven day "lookback" period) over time. Find a time series of growth rates [here](https://github.com/Bixi81/COVID-19/blob/master/covid19_growth_rates_germany.csv).

@@ -42,17 +42,17 @@ Starting 27 April 2020, [face masks must be worn on a mandatory basis](https://w
 
 The figure below shows growth rates of newly discovered/reported infections/deaths (estimated over a seven day "lookback" period) over time. Find a time series of growth rates [here](https://github.com/Bixi81/COVID-19/blob/master/covid19_growth_rates_germany.csv).
 
-![growth](2020-04-20growth.jpg)
+![growth](2020-04-22growth.jpg)
 
 
 **3. Prediction of Newly Discovered/Reported Infections and Reported Deaths**
 
 The figures below show actual cases/deaths (blue) and the predicted number of cases/deaths under the assumption of unchanged growth rate (red: linear OLS on semi-log scale).
 
-![pred1](2020-04-20cases_trend.png)
+![pred1](2020-04-22cases_trend.png)
 
 
-![pred2](2020-04-20deaths_trend.png)
+![pred2](2020-04-22deaths_trend.png)
 
 **4. Deaths and Known Infections by Age**
 

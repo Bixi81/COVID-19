@@ -64,6 +64,46 @@ However, when looking at deaths, the age groups 80+ (63%) and 60-79 years (31%) 
 
 ![infected](2020-04-04_death_age.png)
 
-**5. Conclusion**
+---
 
-Stay at home!
+**5. Official Statements**
+
+**5.1 Gefahreninformation 22.04.2020 13:29**
+
+Gefahreninformation
+BBK, Nationale Warnzentrale Bonn meldet: Coronavirus: Informationen des Bundesministeriums für Gesundheit zur Erweiterung der Leitlinien zur Beschränkung von sozialen Kontakten vom 22.04.2020 13:29.
+BBK, Nationale Warnzentrale Bonn meldet: Die Bundesregierung informiert: Aufgrund neuer Informationen wird die Meldung vom 20.04.2020 aktualisiert.
+Aktualisierte Inhalte:
+Handlungsempfehlungen: Telefonischen Anforderung einer Arbeitsunfähigkeitsbescheinigung
+
+Diese Gefahreninformation gilt für ganz Deutschland. Maßgeblich für die in Ihrem Bundesland geltenden Regelungen sind die Festlegungen der Landesregierungen. Bitte beachten Sie hierzu die Meldungen Ihres jeweiligen Bundeslandes. Diese finden Sie in der Warn-App NINA unter Notfalltipps zu Corona im Unterabschnitt "Hotlinenummern der Landesregierungen".
+
+Aufgrund des Beschlusses des Gemeinsamen Bundesausschusses der Ärzte und Krankenkassen vom 21.04.2020 zur Arbeitsunfähigkeits-Richtlinie (Anpassung und Verlängerung der Ausnahmeregelungen zur telefonischen Feststellung von Arbeitsunfähigkeit) können Sie bis zum 04. Mai 2020 bei leichten Erkrankungen der oberen Atemwege, die keine schwere Symptomatik vorweisen (Husten/Schnupfen), Arbeitsunfähigkeitsbescheinigungen für einen Zeitraum von bis zu 7 Kalendertagen telefonisch bei Ihrem Hausarzt/Ihrer Hausärztin erhalten.
+
+Die hohe Dynamik der Verbreitung des Coronavirus (SARS-CoV-2) in Deutschland in der ersten Märzhälfte hat einschneidende Beschränkungen erfordert. Dadurch wurde erreicht, dass die Infektionsgeschwindigkeit in Deutschland abgenommen hat. Da ohne Beschränkungen die Infektionsgeschwindigkeit sehr schnell wieder zunimmt, können wir noch nicht zum gewohnten Leben der Zeit vor der Epidemie zurückkehren.
+
+Die Bundeskanzlerin und die Regierungschefinnen und Regierungschefs der Länder haben am 15.04.2020 folgendes beschlossen:
+
+- Öffnung von Schulen ab dem 4. Mai 2020 für die Schülerinnen und Schüler der Abschlussklassen dieses Schuljahres und der qualifikationsrelevanten Jahrgänge der allgemeinbildenden sowie berufsbildenden Schulen, die im nächsten Schuljahr ihre Prüfungen ablegen, sowie für die Schülerinnen und Schüler, die in der letzten Klasse der Grundschule beschult werden (ggf. abweichende Regelungen in Ihrem Bundesland). Die Schulträger sind aufgerufen, die hygienischen Voraussetzungen vor Ort zu schaffen und dauerhaft sicherzustellen.
+- Die Notbetreuung wird fortgesetzt und auf weitere Berufs- und Bedarfsgruppen ausgeweitet.
+- Geschäfte bis zu 800 qm Verkaufsfläche sowie unabhängig von der Verkaufsfläche Kfz-Händler, Fahrradhändler, Buchhandlungen können unter Auflagen zur Hygiene, zur Steuerung des Zutritts und zur Vermeidung von Warteschlangen wieder öffnen.
+- Friseurbetriebe können unter Auflagen zur Hygiene, zur Steuerung des Zutritts und zur Vermeidung von Warteschlangen sowie unter Nutzung von persönlicher Schutzausrüstung den Betrieb ab dem 4. Mai 2020 wieder aufzunehmen
+- den Bürgerinnen und Bürgern wird die Nutzung entsprechender Alltagsmasken insbesondere im öffentlichen Personennahverkehr und beim Einkauf im Einzelhandel dringend empfohlen.
+- Großveranstaltungen bleiben bis mindestens bis zum 31. August 2020 untersagt.
+
+Bis auf die aufgeführten Lockerungen bleiben die gemeinsamen Beschlüsse vom 12., 16. und 22. März 2020 sowie die begleitenden ChefBK/CdS-Beschlüsse sowie die Entscheidungen des Corona-Kabinetts weiterhin gültig. Die daraufhin getroffenen Verfügungen werden bis zum 3. Mai 2020 verlängert:
+- 1. Die Bürgerinnen und Bürger werden angehalten, die Kontakte zu anderen Menschen außerhalb der Angehörigen des eigenen Hausstands auf ein absolut nötiges Minimum zu reduzieren.
+- 2. In der Öffentlichkeit ist, wo immer möglich, zu anderen als den unter 1. genannten Personen ein Mindestabstand von mindestens 1,5 m einzuhalten.
+- 3. Der Aufenthalt im öffentlichen Raum ist nur alleine, mit einer weiteren nicht im Haushalt lebenden Person oder im Kreis der Angehörigen des eigenen Hausstands gestattet.
+- 4. Der Weg zur Arbeit, zur Notbetreuung, Einkäufe, Arztbesuche, Teilnahme an Sitzungen, erforderliche Terminen und Prüfungen, Hilfe für andere oder individueller Sport und Bewegung an der frischen Luft sowie andere notwendige Tätigkeiten bleiben weiter möglich.
+- 5. Gruppen feiernder Menschen auf öffentlichen Plätzen, in Wohnungen sowie privaten Einrichtungen sind angesichts der ernsten Lage in unserem Land inakzeptabel. Verstöße gegen die Kontakt-Beschränkungen sollen von den Ordnungsbehörden und der Polizei überwacht und bei Zuwiderhandlungen sanktioniert werden.
+- 6. Gastronomiebetriebe bleiben geschlossen. Davon ausgenommen ist die Lieferung und Abholung mitnahmefähiger Speisen für den Verzehr zu Hause.
+- 7. Dienstleistungsbetriebe im Bereich der Körperpflege, wie Friseure, Kosmetikstudios, Massagesalons, Tattoo-Studios und ähnliche Betriebe bleiben geschlossen (Friseure bis zum 04. Mai 2020), weil in diesem Bereich eine körperliche Nähe unabdingbar ist. Medizinisch notwendige Behandlungen bleiben weiter möglich.
+- 8. In allen Betrieben und insbesondere solchen mit Publikumsverkehr ist es wichtig, die Hygienevorschriften einzuhalten und wirksame Schutzmaßnahmen für Mitarbeiter und Besucher umzusetzen.
+
+- Bund und Länder werden bei der Umsetzung dieser Einschränkungen sowie der Beurteilung Ihrer Wirksamkeit eng zusammenarbeiten. Weitergehende Regelungen aufgrund von regionalen Besonderheiten oder epidemiologischen Lagen in den Ländern und Landkreisen bleiben möglich.
+
+Hinweise:
+Vermeiden Sie Aktivitäten in der Gruppe wie Teamsportarten. - Bitte folgen Sie den behördlichen Anordnungen. - Bitte bleiben Sie zu Hause, soweit es Ihnen möglich ist. Wir als Gemeinschaft müssen Solidarität zeigen denen gegenüber, die besonders gefährdet sind. - Beachten Sie unbedingt behördliche Anordnungen. - Wenn Sie aus dem Ausland nach Deutschland zurückgekehrt sind, vermeiden Sie unnötige Kontakte und bleiben Sie zwei Wochen zu Hause - und zwar unabhängig davon, ob Sie Krankheitszeichen zeigen oder nicht. - Beachten Sie wichtige Hygieneregeln wie regelmäßiges und gründliches Händewaschen. - Husten und niesen Sie in ein Taschentuch oder in die Armbeuge. - Vermeiden Sie Körperkontakt mit anderen Personen wie Begrüßungsküsse und Händeschütteln. - Seien Sie kritisch: Informieren Sie sich nur aus gesicherten Quellen. - Helfen Sie älteren Mitbürgerinnen und Mitbürgern, damit diese keinen vermeidbaren Risiken ausgesetzt werden: Kaufen Sie zum Beispiel für sie ein. - Wenn Sie an einer Immunschwäche oder einer chronischen Atemwegserkrankung leiden oder wenn Sie älter als 70 Jahre sind, empfiehlt es sich, sich von Ihrem Hausarzt bzw. ihrer Hausärztin über eine Pneumokokkenimpfung beraten zu lassen. - Wenn Sie selbst Krankheitszeichen bei sich feststellen, nehmen Sie telefonisch Kontakt mit Ihrem Hausarzt/Ihrer Hausärztin auf oder wenden sich an die Telefonnummer 116117 des Ärztlichen Bereitschaftsdienstes. Gehen Sie nicht unaufgefordert in eine Arztpraxis oder ins Krankenhaus.
+
+

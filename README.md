@@ -34,6 +34,8 @@ As of 4 April 2020, according to German [media reports](https://www.swr.de/swrak
 
 19 April 2020: Antibody tests in Santa Clara county (USA), carried out by researchers from Stanford University, suggest that Covid-19 cases in the county are underreported by a factor between 55-85: "Researchers estimate that if 2.5 to 4.2 percent of the county has already been infected, the true number of total cases in early April — both active and recovered — ranges between 48,000 and 81,000. The county had reported just under 1,000 cases at the time the study was conducted". [Source](https://www.sfgate.com/news/editorspicks/article/Santa-Clara-antibody-test-coronavirus-results-case-15208216.php?fbclid=IwAR2EZv9UpD2CSN5wMsn3hhAHsAxL5Tru5PLaui6EMgPH-2wKwuW_ZcguwB8).
 
+As of [20 April 2020](https://web.archive.org/web/20200422070907/https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724), shops with up 800 sqm sale area are allowed to open for business from 20 April onwards. Independent of size, car and bicycle vendors as well as book shops are allowed to open. Bars and restaurants are still closed. 
+
 **2. Overall Trends**
 
 The figure below shows growth rates of newly discovered/reported infections/deaths (estimated over a seven day "lookback" period) over time. Find a time series of growth rates [here](https://github.com/Bixi81/COVID-19/blob/master/covid19_growth_rates_germany.csv).

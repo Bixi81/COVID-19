@@ -36,7 +36,7 @@ As of 4 April 2020, according to German [media reports](https://www.swr.de/swrak
 
 As of [20 April 2020](https://web.archive.org/web/20200422070907/https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724), shops with up 800 sqm sale area are allowed to open for business from 20 April onwards. Independent of size, car and bicycle vendors as well as book shops are allowed to open. Bars and restaurants are still closed. These restrictions will remain in force until 3 May.
 
-Starting 27 April 2020, [face masks must be worn on a mandatory basis](https://web.archive.org/web/20200422071414/https://www.tagesschau.de/inland/corona-maskenpflicht-101.html) in all German states except Bremen ("Maskenpflicht"). 
+As of 27 April 2020, [face masks must be worn on a mandatory basis](https://web.archive.org/web/20200422122320/https://www.nzz.ch/international/erste-klinische-pruefung-eines-impfstoffs-in-deutschland-steht-offenbar-bevor-immer-mehr-laender-fuehren-eine-maskenpflicht-ein-die-neusten-entwicklungen-zum-coronavirus-in-deutschland-ld.1543011) in all German states in shops and public transport ("Maskenpflicht"). Starting 20 April (Sachsen), masks will gradually become mandatory in all states (23 April, Sachsen-Anhalt; 24 April, Thüringen; 27 April Bayern, Hessen, Bremen / Berlin, Brandenburg, M-Vorpommern (only public transport); 29 April Schleswig-H).
 
 **2. Overall Trends**
 

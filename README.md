@@ -34,7 +34,7 @@ As of 4 April 2020, according to German [media reports](https://www.swr.de/swrak
 
 19 April 2020: Antibody tests in Santa Clara county (USA), carried out by researchers from Stanford University, suggest that Covid-19 cases in the county are underreported by a factor between 55-85: "Researchers estimate that if 2.5 to 4.2 percent of the county has already been infected, the true number of total cases in early April — both active and recovered — ranges between 48,000 and 81,000. The county had reported just under 1,000 cases at the time the study was conducted". [Source](https://www.sfgate.com/news/editorspicks/article/Santa-Clara-antibody-test-coronavirus-results-case-15208216.php?fbclid=IwAR2EZv9UpD2CSN5wMsn3hhAHsAxL5Tru5PLaui6EMgPH-2wKwuW_ZcguwB8).
 
-As of [20 April 2020](https://web.archive.org/web/20200422070907/https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724), shops with up 800 sqm sale area are allowed to open for business from 20 April onwards. Independent of size, car and bicycle vendors as well as book shops are allowed to open. Bars and restaurants are still closed. These restrictions will remain in force until 3 May.
+As of [20 April 2020](https://web.archive.org/web/20200422070907/https://www.bundesregierung.de/breg-de/themen/coronavirus/corona-massnahmen-1734724), shops with up 800 sqm sale area are allowed to open for business from 20 April onwards. Independent of size, car and bicycle vendors as well as book shops are allowed to open. Bars and restaurants are still closed. These restrictions will remain in force until 3 May. Larger scale public events (concerts, sport events etc) will be banned until 31 August 2020 as of 20 April.
 
 As of 27 April 2020, [face masks must be worn on a mandatory basis](https://web.archive.org/web/20200422122320/https://www.nzz.ch/international/erste-klinische-pruefung-eines-impfstoffs-in-deutschland-steht-offenbar-bevor-immer-mehr-laender-fuehren-eine-maskenpflicht-ein-die-neusten-entwicklungen-zum-coronavirus-in-deutschland-ld.1543011) in all German states in shops and public transport ("Maskenpflicht"). Starting 20 April (Sachsen), masks will gradually become mandatory in all states (23 April, Sachsen-Anhalt; 24 April, Thüringen; 27 April Bayern, Hessen, Bremen / Berlin, Brandenburg, M-Vorpommern (only public transport); 29 April Schleswig-H).
 
@@ -70,7 +70,7 @@ However, when looking at deaths, the age groups 80+ (63%) and 60-79 years (31%) 
 
 **5.1 Gefahreninformation 22.04.2020 13:29**
 
-Gefahreninformation
+[Gefahreninformation](https://warnungen.katwarn.de/)
 BBK, Nationale Warnzentrale Bonn meldet: Coronavirus: Informationen des Bundesministeriums für Gesundheit zur Erweiterung der Leitlinien zur Beschränkung von sozialen Kontakten vom 22.04.2020 13:29.
 BBK, Nationale Warnzentrale Bonn meldet: Die Bundesregierung informiert: Aufgrund neuer Informationen wird die Meldung vom 20.04.2020 aktualisiert.
 Aktualisierte Inhalte:

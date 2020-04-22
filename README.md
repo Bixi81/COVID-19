@@ -1,6 +1,6 @@
 # COVID-19: Cases and Deaths in Germany
 
-*Last update: 17 April 2020*
+*Last update: 22 April 2020*
 
 This article presents a brief overview of the current development of known COVID-19 cases/deaths in Germany. I investigate the rate of growth of newly reported infections/deaths and look at short term development. Find the R source file [here](https://github.com/Bixi81/COVID-19/blob/master/covid_19_county_data_germany.r).
 

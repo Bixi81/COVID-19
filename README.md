@@ -45,16 +45,7 @@ The figure below shows growth rates of newly discovered/reported infections/deat
 ![growth](2020-04-22growth.jpg)
 
 
-**3. Prediction of Newly Discovered/Reported Infections and Reported Deaths**
-
-The figures below show actual cases/deaths (blue) and the predicted number of cases/deaths under the assumption of unchanged growth rate (red: linear OLS on semi-log scale).
-
-![pred1](2020-04-22cases_trend.png)
-
-
-![pred2](2020-04-22deaths_trend.png)
-
-**4. Deaths and Known Infections by Age**
+**3. Deaths and Known Infections by Age**
 
 [RKI](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0) now provides more detailed information regarding the age of infected/deceased persons. As of 29 April 2020, the distribution of infections/deaths by age group is:
 
@@ -81,9 +72,9 @@ The figures below show actual cases/deaths (blue) and the predicted number of ca
 
 ---
 
-**5. Official Statements**
+**4. Official Statements**
 
-**5.1 Gefahreninformation 22.04.2020 13:29**
+**4.1 Gefahreninformation 22.04.2020 13:29**
 
 [Gefahreninformation](https://warnungen.katwarn.de/)
 BBK, Nationale Warnzentrale Bonn meldet: Coronavirus: Informationen des Bundesministeriums für Gesundheit zur Erweiterung der Leitlinien zur Beschränkung von sozialen Kontakten vom 22.04.2020 13:29.

@@ -1,6 +1,6 @@
 # COVID-19: Cases and Deaths in Germany
 
-*Last update: 22 April 2020*
+*Last update: 29 April 2020*
 
 This article presents a brief overview of the current development of known COVID-19 cases/deaths in Germany. I investigate the rate of growth of newly reported infections/deaths and look at short term development. Find the R source file [here](https://github.com/Bixi81/COVID-19/blob/master/covid_19_county_data_germany.r).
 
@@ -42,7 +42,7 @@ As of 27 April 2020, [face masks must be worn on a mandatory basis](https://web.
 
 The figure below shows growth rates of newly discovered/reported infections/deaths (estimated over a seven day "lookback" period) over time. Find a time series of growth rates [here](https://github.com/Bixi81/COVID-19/blob/master/covid19_growth_rates_germany.csv).
 
-![growth](2020-04-22growth.jpg)
+![growth](2020-04-29growth.jpg)
 
 
 **3. Deaths and Known Infections by Age**

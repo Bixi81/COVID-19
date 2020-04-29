@@ -49,6 +49,8 @@ The figure below shows growth rates of newly discovered/reported infections/deat
 
 [RKI](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0) now provides more detailed information regarding the age of infected/deceased persons. As of 29 April 2020, the distribution of infections/deaths by age group is:
 
+![age](2020-04-29age.jpg)
+
 | Age  | Infections (%) | Deaths (%) |
 | --- | --- | --- |
 | 0-4   | 0.9  | 0.0 |

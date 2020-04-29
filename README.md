@@ -56,41 +56,28 @@ The figures below show actual cases/deaths (blue) and the predicted number of ca
 
 **4. Deaths and Known Infections by Age**
 
-[RKI](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0) also provides patient-level data by county. Patient information include age groups. The data shows that most infected people are 35 to 59 years old (about 48%). In the age groups 60 to 79 (18%) and 80+ (6%), there are relatively few known cases.
+[RKI](https://npgeo-corona-npgeo-de.hub.arcgis.com/datasets/dd4580c810204019a7b8eb3e0b329dd6_0) now provides more detailed information regarding the age of infected/deceased persons. As of 29 April 2020, the distribution of infections/deaths by age group is:
 
-![infected](2020-04-04_cases_age.png)
+| Age  | Infections (%) | Deaths (%) |
+| --- | --- | --- |
+| 0-4   | 0.9  | 0.0 |
+| 5-9   | 0.9  | 0.0 |
+| 10-14 | 1.2  | 0.0 |
+| 15-19 | 2.9  | 0.0 |
+| 20-24 | 6.6  | 0.0 |
+| 25-29 | 7.7  | 0.1 |
+| 30-34 | 7.4  | 0.0 |
+| 35-39 | 6.6  | 0.2 |
+| 40-44 | 6.7  | 0.3 |
+| 45-49 | 7.9  | 0.5 |
+| 50-54 | 10.8 | 1.1 |
+| 55-59 | 10.1 | 2.1 |
+| 60-64 | 7.0  | 3.7 |
+| 65-69 | 4.3  | 5.3 |
+| 70-74 | 3.6  | 7.4 |
+| 75-79 | 4.2  | 15.6 |
+| 80+   | 11.0 | 63.6 |
 
-However, when looking at deaths, the age groups 80+ (63%) and 60-79 years (31%) are extremely over-represented. This implies that - as of today - mostly older people die in consequence of a Covid-19 infection.
-
-![infected](2020-04-04_death_age.png)
-
-
-          |   A00-A04 |   A15-A19 |   A20-A24 |   A25-A29 |   A30-A34 | 
-          |-----------|-----------|-----------|-----------|-----------|
-          |         1 |         1 |         1 |         5 |         3 | 
-          |     0.000 |     0.000 |     0.000 |     0.001 |     0.000 | 
-          |-----------|-----------|-----------|-----------|-----------|
-
-
-          |   A35-A39 |   A40-A44 |   A45-A49 |   A50-A54 |   A55-A59 | 
-          |-----------|-----------|-----------|-----------|-----------|
-          |        11 |        17 |        28 |        70 |       130 | 
-          |     0.002 |     0.003 |     0.005 |     0.011 |     0.021 | 
-          |-----------|-----------|-----------|-----------|-----------|
-
-
-          |   A60-A64 |   A65-A69 |   A70-A74 |   A75-A79 |      A80+ | 
-          |-----------|-----------|-----------|-----------|-----------|
-          |       228 |       322 |       454 |       951 |      3892 | 
-          |     0.037 |     0.053 |     0.074 |     0.156 |     0.636 | 
-          |-----------|-----------|-----------|-----------|-----------|
-
-
-          | unbekannt | 
-          |-----------|
-          |         1 | 
-          |     0.000 | 
-          |-----------|
 
 ---
 
